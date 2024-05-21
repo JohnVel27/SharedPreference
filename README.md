@@ -39,3 +39,11 @@ To Retriece values from a shared preferences file, call methods such as getInt()
                         username = sharedPreferences.getString("username","");
                         password = sharedPreferences.getString("password","");
                         textView.setText("Username: " + username + "\nPassword: " + password +"\n" );</code></pre>
+ <hr />
+ 
+ # Click The image to watch the video:
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/d_TRnGEIhX9Tk?si=621vlfl_tqewRMyb.jpg)](https://www.youtube.com/shorts/TRnGEIhX9Tk?si=621vlfl_tqewRMyb)
+                        
+
+                        
