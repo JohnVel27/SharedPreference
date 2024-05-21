@@ -7,9 +7,8 @@ SharedPreference is small collection of key-values that you'd like to save.
 # Get a handle to shared preferences
 
 1. getsharedPreferences(): Use this if you need multiple shared preference files identified by name, which you specify with the first parameter. You can call this from any context in your app.
-   <ul>
-<li>
-<p>getsharedPreferences</p>
+ 
+<h1>getsharedPreferences</h1>
 <pre><code>Context context = getActivity();
 SharedPreferences sharedPref = context.getSharedPreferences(
         getString(R.string.preference_file_key), Context.MODE_PRIVATE);</code></pre>
