@@ -43,7 +43,7 @@ To Retriece values from a shared preferences file, call methods such as getInt()
  
  # Click The image to watch the video:
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/shorts/TRnGEIhX9Tk?si=621vlfl_tqewRMyb.jpg)](https://www.youtube.com/shorts/TRnGEIhX9Tk?si=621vlfl_tqewRMyb)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/TRnGEIhX9Tk.jpg)](https://www.youtube.com/shorts/TRnGEIhX9Tk?si=621vlfl_tqewRMyb)
                         
 
                         
