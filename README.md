@@ -23,8 +23,19 @@ SharedPreferences sharedPref = getActivity().getPreferences(Context.MODE_PRIVATE
 SharedPreference.editor - to write to a share preferences file, by calling edit();
 ### Pass the keys and values want to write with methods such as: 
    putInt() and putString() then call apply() or commit() to save the changes.
+   <pre><code>SharedPreferences sharedPreferences = getSharedPreferences("Sharedpreferencename",MODE_PRIVATE);
+                        SharedPreferences.Editor editor = sharedPreferences.edit();
+                        editor.putString("username",username);
+                        editor.putString("password",password);
+                        editor.apply();
+                        Toast.makeText(MainActivity.this,"Success",Toast.LENGTH_LONG).show();</code></pre>
 <hr />
 
 # Read from shared preferences:
 
 To Retriece values from a shared preferences file, call methods such as getInt() and getString();
+<pre><code>SharedPreferences sharedPreferences = getSharedPreferences("Sharedpreferencename",MODE_PRIVATE);
+                        String username,password;
+                        username = sharedPreferences.getString("username","");
+                        password = sharedPreferences.getString("password","");
+                        textView.setText("Username: " + username + "\nPassword: " + password +"\n" );</code></pre>
