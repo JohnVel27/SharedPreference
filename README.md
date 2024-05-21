@@ -22,7 +22,7 @@ SharedPreferences sharedPref = getActivity().getPreferences(Context.MODE_PRIVATE
 
 SharedPreference.editor - to write to a share preferences file, by calling edit();
 ### Pass the keys and values want to write with methods such as: 
-   <h5>putInt() and putString() then call apply() or commit() to save the changes.</h5>
+   putInt() and putString() then call apply() or commit() to save the changes.
 <hr />
 
 # Read from shared preferences:
