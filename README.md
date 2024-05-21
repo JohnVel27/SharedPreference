@@ -21,6 +21,6 @@ SharedPreferences sharedPref = getActivity().getPreferences(Context.MODE_PRIVATE
 # Write to shared preferences:
 
 SharedPreference.editor - to write to a share preferences file, by calling edit();
-###Pass the keys and values want to write with methods such as: 
+### Pass the keys and values want to write with methods such as: 
    <h5>putInt() and putString()</h5>
 
